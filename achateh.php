@@ -16,6 +16,7 @@ if(!$con){die("eurreur de type" .mysqli_connect_error()); }
 else "OK";
 
 
+
 $SC=$_POST['SC'];
 $SA=$_POST['SA'];
 

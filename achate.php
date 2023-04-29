@@ -25,7 +25,7 @@ while ($row = mysqli_fetch_array($resultat)) {
 
 <?php
 include "cnx.php";
-$req= "SELECT * FROM Article ";
+$req= "SELECT code FROM Article ";
 $sum = mysqli_query($con,$req);
 $sel="";
 while ($row = mysqli_fetch_array($sum)) {
@@ -187,7 +187,7 @@ margin-top: 0px; }
              <center>  <input type="date" name="datj"  required ><br><br></center>
 		   <center> <input type="submit" id="submit" name="submit" value="Acheter"> <input type="reset" value="Annuler"><br>
 		   <!-- <a href="listEta.php"><input type="button" name="" value="list"></a>-->
-		     <a href="menu.html"><input type="button" name="" value="Menu"> 
+		     <!-- <a href="menu.html"><input type="button" name="" value="Menu">  -->
 			
 			
 			</form>

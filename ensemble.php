@@ -22,7 +22,7 @@ echo "<br>"."<br>";
 echo "<table border>";
 echo "<tr>";
 echo "<th>". "Nom:  ". "</th>" ;
-$sql= "select * from Rayon ";
+$sql= "select NomR from Rayon ";
 $resultat = mysqli_query($con,$sql);
 if(mysqli_num_rows($resultat)>0){
 while($lign=mysqli_fetch_row($resultat)){
@@ -69,9 +69,9 @@ $resultat = mysqli_query($con,$sql);
 if(mysqli_num_rows($resultat)>0){
 while($lign=mysqli_fetch_row($resultat)){
 	echo "<tr>";
-	echo"<td>". $lign[0]."</td>"; 
-    echo"<td>". $lign[1]."</td>"; 
-	echo "<td>".$lign[2]."</td>";
+	echo"<td>". $lign[1]."</td>"; 
+    echo"<td>". $lign[2]."</td>"; 
+	echo "<td>".$lign[3]."</td>";
 
 	echo "</tr>";
 	

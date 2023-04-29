@@ -133,21 +133,22 @@ h4{
 </style>
 
 <div class="center">
-<br><br>
+<br>
 <ul>
    
-	<li>i</li>
-	<li>n</li>
-	<li>f</li>
-	<li>o</li>
-	<li>r</li>
-	<li>m</li>
-	<li>a</li>
-	<li>t</li>
-	<li>i</li>
-	<li>o</li>
-	<li>n</li>
-	<li>s</li>
+	<li><h2>i</h2></li>
+	<li><h2>n</h2></li>
+	<li><h2>f</h2></li>
+	<li><h2>o</h2></li>
+	<li><h2>r</h2></li>
+	<li><h2>m</h2></li>
+	<li><h2>a</h2></li>
+	<li><h2>t</h2></li>
+	<li><h2>i</h2></li>
+	<li><h2>o</h2></li>
+	<li><h2>n</h2></li>
+	<li><h2>s</h2></li>
+	
 
 
 </ul>
@@ -157,7 +158,7 @@ h4{
 </div>
 <br><br>
 <div class="dy">
-<ul> <h4> Nom: Emame Market<br> </h4>
+<ul> <h4> Nom: Mekfoula Market<br> </h4>
 <h4>Nombre des Rayons :  <?php
 
 

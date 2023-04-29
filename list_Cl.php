@@ -23,7 +23,7 @@ echo "<th>". "Nom". "</th>" ;
 echo "<th>". "Prenom". "</th>" ;
 echo "<th>". "DateN". "</th>" ;
 echo "<th>". "Num Mobile". "</th>" ;
-echo "<th colspan='1'>". "Actions". "</th>"."</tr>" ;
+//echo "<th colspan='1'>". "Actions". "</th>"."</tr>" ;
 
 $sql= "select * from client ";
 $resultat = mysqli_query($con,$sql);
@@ -35,7 +35,7 @@ while($lign=mysqli_fetch_row($resultat)){
 	echo"<td>". $lign[1]."</td>"; 
 	echo "<td>".$lign[2]."</td>";
     echo "<td>".$lign[4]."</td>";
-	echo "<td><a href=clientM.php?id=".$lign[3].">Modifier</a></td>";
+	//echo "<td><a href=clientM.php?id=".$lign[3].">Modifier</a></td>";
 
 	echo "</tr>";
 }	

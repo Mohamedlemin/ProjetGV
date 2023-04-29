@@ -185,7 +185,7 @@
 			 
 				<center> <input type="submit" value="Ajout"><br> <input type="reset" value="Annuler"><br>
 				  <!--<a href="list_Cl.php"><input type="button" name="" value="list"> -->
-				   <a href="menu.html"><input type="button" name="" value="Menu">  </center>
+				   <!-- <a href="menu.html"><input type="button" name="" value="Menu">  </center> -->
 
 			  </form>
 

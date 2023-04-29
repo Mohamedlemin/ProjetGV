@@ -37,7 +37,7 @@ if (mysqli_num_rows($req)>0) {
 
 else{
    //include "Erreur.php";
-   header("refresh:0;url=vendeur.php");
+   header("refresh:0;url=menu.php");
    //header("refresh:1;url=login.php");
 
 }

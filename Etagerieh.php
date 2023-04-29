@@ -12,7 +12,7 @@
 include "menu_inl.html";
 
 include "cnx.php";
-$sql= "SELECT * FROM Rayon ";
+$sql= "SELECT NomR FROM Rayon ";
 $resultat = mysqli_query($con,$sql);
 $option="";
 while ($row = mysqli_fetch_array($resultat)) {
@@ -148,7 +148,7 @@ while ($row = mysqli_fetch_array($resultat)) {
 			  <select class="sel" name="NomR"><option> <?php echo $option; ?></option></select><br></center><br><br>
 		   <center> <input type="submit" id="submit" name="submit" value="Ajouter"> <br><input type="reset" value="Annuler"><br>
 		  <!--  <a href="listEta.php"><input type="button" name="" value="list"></a>-->
-		     <a href="menu.html"><input type="button" name="" value="Menu"> </a></center>
+		     <!-- <a href="menu.html"><input type="button" name="" value="Menu"> </a></center> -->
 			
 			
 			</form>

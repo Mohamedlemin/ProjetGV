@@ -31,7 +31,7 @@ echo "<th>". "NomA". "</th>" ;
 
 echo "<th>". "prix". "</th>" ;
 echo "<th>". "datEx". "</th>" ;
-echo "<th>". "Nom Etagére". "</th>" ;
+echo "<th>". "Num Etagére". "</th>" ;
 
 echo "</tr>" ;
 
@@ -40,12 +40,12 @@ $resultat = mysqli_query($con,$sql);
 if(mysqli_num_rows($resultat)>0){
 while($lign=mysqli_fetch_row($resultat)){
 	echo "<tr>";
-	echo"<td>". $lign[0]."</td>"; 
-	    echo"<td>". $lign[4]."</td>"; 
+	echo"<td>". $lign[1]."</td>"; 
+	    echo"<td>". $lign[5]."</td>"; 
 
-    echo"<td>". $lign[1]."</td>"; 
-	echo "<td>".$lign[2]."</td>";
-		echo "<td>".$lign[3]."</td>";
+    echo"<td>". $lign[2]."</td>"; 
+	echo "<td>".$lign[3]."</td>";
+		echo "<td>".$lign[4]."</td>";
 
 
 	echo "</tr>";

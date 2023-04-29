@@ -191,7 +191,7 @@ margin-top: 50px;
 			  <select class="sel" name="NumE"><option> <?php echo $option; ?> </option></select><br><br></center>
    <center><input type="submit" value="Ajouter"> <br><input type="reset" value="Annuler"><br> 
   <!--  <a href="list_Ar.php"><input type="button" name="" value="list">-->
-     <a href="menu.html"><input type="button" name="" value="Menu">  
+     <!-- <a href="menu.html"><input type="button" name="" value="Menu">   -->
 			
    </form>
 
