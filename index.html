@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="">
+	<meta name="viewport" content="width=device,initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+
+
+</head>
+<body bgcolor="ff8c00">
+<style type="text/css">
+	*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+
+}
+
+.header{
+	height: 100px;
+	background: #34495e;
+	padding: 0 20px;
+	color: #fff;
+}
+.logo{
+	line-height: 100px;
+	float: left;
+	text-transform: uppercase;
+}
+.menu{
+	float: right;
+	line-height: 100px;
+	text-transform: uppercase;
+}
+.menu a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 10px;
+	transition: 0.4s
+
+
+}
+.show-menu-btn,.hide-menu-btn{
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+	display: none;
+}
+.show-menu-btn{
+	float: right;
+}
+.hide-menu-btn{
+	line-height: 100px;
+}
+.menu a: hover, .show-menu-btn:hover,
+.hide-menu-btn:hover{
+	color: #3498db;
+}
+#chk{
+	position: absolute;
+	visibility: hidden;
+	z-index: -1111;
+}
+}
+.co img{
+	 background-size: cover;
+  width: 100%;
+  min-height: 580px;
+  margin-top: 55px;
+  text-transform: uppercase
+};
+.co p{
+	text-align: justify;
+}
+
+.text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	 margin: 0;
+ padding: 0;
+ text-transform: uppercase;
+ font-size: 10em;
+ color: rgba(255,255,255,.1);
+ background-image: url(wa.jpeg);
+ background-repeat: repeat-none;
+ -webkit-background-clip: text;
+ animation: animate 30s linear infinite ;  
+
+}
+@keyframes animate {
+  0%{
+    background-position: center 0px top 43px ;
+  }
+  40%{
+    background-position: center 800px top -30px ;
+  }
+  
+  
+  80%{
+    background-position: right 1800px top -19px ;
+  }
+  
+}
+}
+
+</style>
+<div class="header">
+
+
+<h2 class="logo"><i class="fas fa-store"></i>      Projet Gestion De Vente
+
+
+
+</h2>
+<input type="checkbox" id="chk">
+<label for="chk"  class="show-menu-btn" >
+ <i class="fas fa-ellipsis-h"></i>
+</label>
+
+</label>
+<ul class="menu">
+
+<a href="login.php"><i class="fa fa-user" aria-hidden="true"></i>   connecté</a>
+<!--<a href="inscriver.html">Inscrivez-vous</a>-->
+<a href="contact.php"> <i class="fa fa-address-card" ></i>  contacter-nous</a>
+<!--<a href="projet.pptx">powrpoint</a>-->
+<label for="chk" class="hide-menu-btn">
+	<i class="fas fa-times"></i></label>
+
+</ul>
+</div>
+
+<div class="co">
+
+<center><div class="">
+
+
+</center></div>
+<div class="l">
+<h1 class="text">BIENVENUE</h1>
+</div>
+
+</body>
+</html>

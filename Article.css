@@ -1,0 +1,144 @@
+   body { 
+    font-family : Arial;
+    margin: 0;
+    padding: 0;
+     
+    -webkit-background-size :cover;
+    background-size : cover;
+     font-family : sans-serif;
+           background: url(photo/acha.jpg) no-repeat center;
+            background-size: cover;
+  width: 100%;
+  min-height: 580px;
+  margin-top: 55px;
+  
+    }
+    .Med h1{
+     text-align : center;
+     color :black;
+     margin: 0;
+     padding : 0 0 20px;
+     color:white;
+     text-align: center;
+    }
+    
+     input[type="text"]
+     {
+     border: none;
+     margin: 2px;
+     outline: none;
+     height: 20px;
+     width: 300px;
+     padding: 10px;
+     color: olive;
+     font-size: 16px;
+     background: #faebd7;
+     cursor: pointer;
+     border-radius:20px;
+     }
+    
+    input[type=text]:hover {
+      background-color: #d4d4d4;
+      }
+      input[type=number]:hover {
+      background-color: #d4d4d4;
+    }
+    input[type=date]:hover {
+      background-color: #d4d3d3;
+      }
+      
+      
+    input[type="numbre"]{
+    border: none;
+     margin: 2px;
+     outline: none;
+     height: 20px;
+     width: 300px;
+     padding: 10px;
+     color: olive;
+     font-size: 16px;
+     background: #faebd7;
+     cursor: pointer;
+     border-radius:20px;}
+    
+    input[type=text]:active {
+      color: green;
+    }
+    input[type=date]:active {
+      background-color: green;
+    }
+    input[type=number]:active {
+      background-color: green;
+    }
+    input[type=date] {
+    border: none;
+     margin: 2px;
+     outline: none;
+     height: 20px;
+     width: 300px;
+     padding: 10px;
+     color: olive;
+     font-size: 16px;
+     background: #faebd7;
+     cursor: pointer;
+     border-radius:20px;
+    }
+      input[type="submit"]
+     
+     {
+     border: none;
+     outline: none;
+     height: 40px;
+     width: 200px;
+     padding: 3px;
+     margin: 3px;
+     color: #fff;
+     font-size: 16px;
+     background: #ff267e;
+     cursor: pointer;
+     border-radius:20px;
+     }
+     
+      input[type="submit"]:hover{
+     background: #efed40;
+     color: #262626;
+     }
+     
+     input[type="reset"]
+     {
+     border: none;
+     margin: 2px;
+     outline: none;
+     height: 40px;
+     width: 200px;
+     padding: 3px;
+     color: #fff;
+     font-size: 16px;
+     background: #ff267e;
+     cursor: pointer;
+     border-radius:20px;
+     }
+     
+      input[type="reset"]:hover{
+     background: #efed40;
+     color: #262626;
+     }
+    
+    
+    .Med{
+    width: 340px;
+    padding :20px;
+    position: absolute;
+    height: 446px;
+    border-radius: 30px;
+    background-color :#f0f8ff;
+    left: 33%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% ,-50%)  ;
+    }
+   .Med a{
+     
+     text-decoration:none;
+     color: black;

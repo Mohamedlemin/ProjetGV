@@ -1,0 +1,45 @@
+table tr{
+background-color:#faebd7 ;
+color:black;
+
+}
+table {
+width: 60%;
+
+background-color: #ffffff;
+border-collapse: collapse;
+border:1px solid black;
+text-align: center;
+
+
+margin:auto;
+}
+tr{
+text-align:center;
+height: 40px;	
+	
+}
+th:hover {
+  background-color: #f4a460;
+}
+td:hover {
+  background-color: #f2f242;
+  
+}
+body {font-family: Arial;
+background: url(photo/img.jpg);
+}
+h3{
+text-align:center;
+}
+th{
+  background-color: white;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: #008080;
+  padding: 20px;
+  width:30%;
+  margin: auto;
+}
