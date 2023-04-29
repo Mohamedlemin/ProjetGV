@@ -1,10 +1,10 @@
 <?php
-session_start();
-require("admin.php");
-if (Auth::islogged()){
-}else{
-    header('location:login.php');
-}
+// session_start();
+// require("admin.php");
+// if (Auth::islogged()){
+// }else{
+//     header('location:login.php');
+// }
 ?>
 
 
@@ -27,7 +27,7 @@ echo "<tr>";
 echo "<th>". "Nom:  ". "</th>" ;
 
 
-$sql= "select * from Rayon ";
+$sql= "select NomR from Rayon ";
 $resultat = mysqli_query($con,$sql);
 if(mysqli_num_rows($resultat)>0){
 while($lign=mysqli_fetch_row($resultat)){

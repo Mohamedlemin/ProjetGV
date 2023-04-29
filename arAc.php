@@ -1,4 +1,5 @@
-<?php/*
+<?php
+/*
 session_start();
 require("admin.php");
 if (Auth::islogged()){

@@ -1,17 +1,17 @@
 <?php
-session_start();
-require("admin.php");
-if (Auth::islogged()){
-}else{
-    header('location:login.php');
-}
+// session_start();
+// require("admin.php");
+// if (Auth::islogged()){
+// }else{
+//     header('location:login.php');
+// }
 ?>
 
 
 <?php
 include "menu_inl.html";
 include "cnx.php";
-$sql= "SELECT * FROM Supermarch ";
+$sql= "SELECT NomS FROM Supermarch ";
 $resultat = mysqli_query($con,$sql);
 $option="";
 while ($row = mysqli_fetch_array($resultat)) {
@@ -150,7 +150,7 @@ while ($row = mysqli_fetch_array($resultat)) {
 			  <select class="sel" name="NomSF"><option> <?php echo $option; ?></option></select><br><br><br>
 		    <input type="submit" name="submit"  value="Ajouter"><br><input type="reset" value="Annuler"><br>
 		   <!-- <a href="list_ra.php"><input type="button" name="" value="list"> -->
-		    <a href="menu.html"><input type="button" name="" value="Menu"> 
+		    <!-- <a href="menu.html"><input type="button" name="" value="Menu">  -->
 		      
 		 
 		  

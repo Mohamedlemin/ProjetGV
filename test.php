@@ -13,14 +13,14 @@ $req=mysqli_query($con, $sql);
 
 if (mysqli_num_rows($req)>0) {
 
-    $_SESSION['Auth'] = Array(
-        'login' => $username,
-        'pass' => $pass
-    );
+    // $_SESSION['Auth'] = Array(
+    //     'login' => $username,
+    //     'pass' => $pass
+    // );
 
 
     $lign =mysqli_fetch_row($myres) ;
-    echo $lign[0];
+   
         if ($lign[0]== 'Admin') {
 
         //    header('location:menu.php');

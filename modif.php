@@ -1,11 +1,11 @@
 
 <?php
-session_start();
-require("admin.php");
-if (Auth::islogged()){
-}else{
-    header('location:login.php');
-}
+// session_start();
+// require("admin.php");
+// if (Auth::islogged()){
+// }else{
+//     header('location:login.php');
+// }
 ?>
 
 <!DOCTYPE html>
